@@ -1,20 +1,28 @@
 {
   "name": "sassessentials",
-  "version": "1.0.2",
-  "description": "A website for my Sass Essential Training course on Lynda.com",
+  "version": "1.0.0",
+  "description": "This is the repository for my course Sass Essential Training. The full course is available on [LinkedIn Learning](https://www.linkedin.com/learning/sass-essential-training?trk=insiders_6787408_learning) and [Lynda.com](https://www.lynda.com/Sass-tutorials/Sass-Essential-Training/375925-2.html)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/planetoftheweb/sassEssentials.git"
+    "url": "git+https://github.com/100gm/sassEssentials.git"
   },
-  "author": "Ray Villalobos",
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-jshint": "^2.1.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "node-sass": "^4.13.1"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100gm/sassEssentials/issues"
   },
+  "homepage": "https://github.com/100gm/sassEssentials#readme",
   "dependencies": {
-    "browser-sync": "^2.26.5"
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.63.3"
   }
 }
